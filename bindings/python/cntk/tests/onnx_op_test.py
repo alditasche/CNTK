@@ -927,7 +927,6 @@ def test_LogAddExp(tmpdir, dtype):
 
 @pytest.mark.parametrize("dtype", DType_Config)
 def test_LogAddExp_Broadcast(tmpdir, dtype):
-        
     shape_x_arr = [(2,1,4), (2,1,4), (2,2,3,4)]
     shape_y_arr = [(1,3,1), (3,1),   (1,1)]
 
